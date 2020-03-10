@@ -1,0 +1,13 @@
+## Discussion 4 - Oct 18
+- Array access:
+  - A + (index * size of type)
+- 2D Array access:
+  - A[i][j] = A + (i * numCols * size of type) + (j * size of type)
+- Structs:
+  - user defined data type consisting of other types
+  - Align data: primitive type that requires K bytes -- address of it must be a multiple of K
+  - Can order types in structs so that we minimize wasted space due to alignment
+- Unions:
+  - Multiple data types
+  - Given value of a union can assume only one of the given data types (only use one field at a time)
+- Local vars: stack, dynamically allocated: heap, methods: text, static and global vars: data
